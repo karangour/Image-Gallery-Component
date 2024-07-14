@@ -2,9 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import "./ImageGallery.css";
 
 export default function ImageGallery() {
-  // One of the things I am unable to do is have that grey background of the images if the images have an alpha
-  // channel. At the moment my images all have a white background as that's default. I think this may require
-  // some basic image processing, which I will have to look up properly.
 
   const [images, setImages] = useState([]);
   const [mainImage, setMainImage] = useState(null);
